@@ -247,7 +247,43 @@ footer {
     header .container {
         flex-direction: column;
     }
+
+    @media screen and (min-width: 768px ) and (max-width: 1023px) {
+
+    .container{
+        max-width: 90%;
+    }
+        
+    .container p {
+        font-size: 1.5em;
+    }
+
+    section .container {
+        display: block;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .main-img {
+        height: 200px;
+        width: 270px;
+        margin-top: 10px;
+        padding: 16px 0;
+    }
+
+    .itens {
+        grid-template-columns: repeat(2, 49%);
+    }
     
-    
+        
+    section .produtos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    }
+
 }
+
 
