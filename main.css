@@ -248,10 +248,10 @@ footer {
         flex-direction: column;
     }
 
-    section .contact {
+    .contact-methods {
         display: block;
-        justify-content:center;
-        align-items: center;  
+        justify-content: center;
+        align-items: center;
     }
 
     @media screen and (min-width: 768px ) and (max-width: 1023px) {
@@ -288,10 +288,10 @@ footer {
         align-items: center;
     }
 
-    section .contact {
+    .contact-methods {
         display: block;
-        justify-content:center;
-        align-items: center;  
+        justify-content: center;
+        align-items: center;
     }
 
     }
